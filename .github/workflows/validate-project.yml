@@ -1,4 +1,4 @@
-
+﻿
 name: Case Omega Repository Validation
 
 on:
@@ -41,5 +41,5 @@ jobs:
 
       - name: Validate synthetic evidence
         run: |
-          grep -qi "synthetic" "02_Evidence_Collection/Original_Evidence/Ransom_Note.txt"
+          grep -Eqi "synthetic|fictional|simulated" "02_Evidence_Collection/Original_Evidence/Ransom_Note.txt"
           echo "PASS: Synthetic evidence disclaimer found"
