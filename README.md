@@ -1,82 +1,91 @@
-\# Case Omega: Investigating a Ransomware Attack on a Healthcare Network
+# Case Omega: Investigating a Ransomware Attack on a Healthcare Network
 
+## 1. Project Overview
 
+This project presents a simulated digital forensic investigation of a ransomware incident affecting a fictional healthcare network.
 
-\## Project Overview
+The investigation demonstrates the fundamental stages of digital forensics, including first responder procedures, evidence documentation, evidence integrity verification, malware behavior analysis, attack timeline creation, and forensic reporting.
 
+**Project Type:** Academic Cyber Crime Investigation  
+**Case Name:** Case Omega  
+**Environment:** Fictional Healthcare Network  
+**Investigation Type:** Digital Forensics and Incident Response
 
+## 2. Objectives
 
-This project presents a fictional digital forensics investigation of a
+- Develop a First Responder Standard Operating Procedure (SOP).
+- Document the simulated incident scene.
+- Identify and register digital evidence.
+- Demonstrate evidence acquisition and SHA-256 integrity verification.
+- Analyze a harmless simulated malware sample.
+- Identify Indicators of Compromise (IOCs).
+- Create a chronological attack timeline.
+- Prepare a structured forensic investigation report.
+- Validate repository structure and Markdown formatting using GitHub Actions.
 
-simulated ransomware incident involving a healthcare network.
+## 3. Investigation Modules
 
-
-
-The investigation focuses on digital evidence collection, evidence
-
-preservation, malware behavior analysis, event timeline reconstruction,
-
-and forensic reporting.
-
-
-
-\## Objectives
-
-
-
-\- Document the incident response procedure.
-
-\- Identify and document potential digital evidence.
-
-\- Understand evidence acquisition and chain of custody.
-
-\- Analyze simulated ransomware behavior safely.
-
-\- Reconstruct an incident timeline using synthetic logs.
-
-\- Prepare a final forensic investigation report.
-
-
-
-\## Project Structure
-
-
-
-| Folder | Purpose |
-
+| Module | Description |
 |---|---|
+| First Responder | Incident response and scene documentation |
+| Evidence Collection | Evidence register and chain of custody |
+| Malware Analysis | Safe malware simulation and IOC documentation |
+| Timeline Analysis | Event correlation and timeline creation |
+| Forensic Reporting | Legal and technical investigation report |
+| GitHub Automation | Repository validation using GitHub Actions |
 
-| 01\_First\_Responder | First responder SOP and scene documentation |
+## 4. Tools and Technologies
 
-| 02\_Evidence\_Collection | Evidence acquisition and chain of custody |
+- Visual Studio Code
+- Git and GitHub
+- Python
+- PowerShell
+- SHA-256
+- FTK Imager (where applicable)
+- Draw.io
+- GitHub Actions
 
-| 03\_Malware\_Analysis | Safe malware behavior analysis |
+## 5. Repository Structure
 
-| 04\_Timeline | Incident timeline reconstruction |
+```text
+Case-Omega/
+├── 01_First_Responder/
+│   ├── SOP.md
+│   ├── Scene_Documentation.md
+│   └── Evidence_Tags/
+│       └── Evidence_Register.md
+├── 02_Evidence_Collection/
+├── 03_Malware_Analysis/
+├── 04_Timeline/
+├── 05_Forensic_Report/
+├── 06_Screenshots/
+├── 07_Tools/
+└── .github/workflows/
+```
 
-| 05\_Forensic\_Report | Final investigation report |
+## 6. Safety and Scope
 
-| 06\_Screenshots | Project screenshots |
+This is an academic simulation conducted using fictional systems and synthetic evidence.
 
-| 07\_Tools | Tools and workflow documentation |
+No real healthcare infrastructure, patient information, or unauthorized systems are involved. Malware behavior is studied through harmless simulations and documented observations.
 
+## 7. Deliverables
 
+- First Responder SOP
+- Scene documentation and diagram
+- Evidence register
+- Chain of custody documentation
+- SHA-256 hash validation
+- Malware analysis findings
+- IOC register
+- Attack timeline
+- Final forensic report
+- Tool documentation
+- GitHub Actions workflow
+- Authorship declaration
 
-\## Safety Disclaimer
+## 8. Academic Disclaimer
 
+This repository is created for educational purposes as part of an academic assignment on the investigation of cyber crimes.
 
-
-This is an academic project using fictional scenarios and synthetic data.
-
-No real healthcare systems, patient records, or live ransomware will be
-
-used or targeted.
-
-
-
-\## Author
-
-
-
-Student Digital Forensics Investigation Project
-
+All simulated evidence and investigation findings will be clearly identified as fictional or generated test data.
