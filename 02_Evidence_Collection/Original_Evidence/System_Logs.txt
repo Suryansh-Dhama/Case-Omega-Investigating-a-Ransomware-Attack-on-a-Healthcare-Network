@@ -1,0 +1,22 @@
+CASE OMEGA - SYNTHETIC SYSTEM LOGS
+
+Case ID: OMEGA-001
+System: HOSPITAL-SERVER-01
+Environment: Fictional Healthcare Network
+Log Type: Simulated System Activity
+Date: 15 November 2026
+
+[2026-11-15 09:00:12] INFO: System startup completed.
+[2026-11-15 09:05:30] INFO: Monitoring service started.
+[2026-11-15 09:12:45] INFO: User account DEMO_ADMIN logged in.
+[2026-11-15 09:18:20] INFO: Synthetic backup process started.
+[2026-11-15 09:20:15] WARNING: Unusual file activity detected in simulation.
+[2026-11-15 09:21:05] WARNING: Simulated security alert generated.
+[2026-11-15 09:22:40] INFO: Incident response notification recorded.
+[2026-11-15 09:25:10] INFO: System activity snapshot recorded.
+[2026-11-15 09:30:00] INFO: Simulation monitoring completed.
+
+END OF SYNTHETIC LOGS
+
+NOTE:
+All entries are fictional and created exclusively for the Case Omega academic project. They do not represent activity on a real healthcare system.

@@ -1,0 +1,7 @@
+Timestamp,Username,Event,Status,Source
+2026-11-15 09:00:12,SYSTEM,System Startup,Success,Local
+2026-11-15 09:12:45,DEMO_ADMIN,User Login,Success,Local
+2026-11-15 09:14:30,DEMO_USER,User Login,Success,Local
+2026-11-15 09:20:15,SYSTEM,Security Alert,Warning,Local
+2026-11-15 09:22:40,SYSTEM,Incident Notification,Success,Local
+2026-11-15 09:30:00,SYSTEM,Monitoring Completed,Success,Local

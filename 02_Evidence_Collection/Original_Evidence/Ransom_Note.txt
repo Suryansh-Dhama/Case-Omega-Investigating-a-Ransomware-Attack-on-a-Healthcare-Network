@@ -1,0 +1,17 @@
+CASE OMEGA - SIMULATED RANSOM NOTE
+
+Incident ID: OMEGA-001
+System: HOSPITAL-SERVER-01
+Date: 15 November 2026
+
+This is a fictional ransom note created for an academic digital forensics simulation.
+
+The simulated incident scenario indicates that certain test files have been marked as affected.
+
+No real files have been encrypted.
+No real healthcare system has been accessed.
+No payment or external contact is requested.
+
+Investigation Reference: OMEGA-001
+
+END OF SIMULATED NOTE

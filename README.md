@@ -49,18 +49,39 @@ The investigation demonstrates the fundamental stages of digital forensics, incl
 
 ```text
 Case-Omega/
+├── README.md
 ├── 01_First_Responder/
 │   ├── SOP.md
 │   ├── Scene_Documentation.md
 │   └── Evidence_Tags/
 │       └── Evidence_Register.md
 ├── 02_Evidence_Collection/
+│   ├── Original_Evidence/
+│   │   ├── Login_Records.csv
+│   │   ├── Ransom_Note.txt
+│   │   └── System_Logs.txt
+│   ├── Working_Copies/
+│   │   ├── Login_Records.csv
+│   │   ├── Ransom_Note.txt
+│   │   └── System_Logs.txt
+│   ├── Hash_Verification.md
+│   └── Chain_of_Custody.md
 ├── 03_Malware_Analysis/
+│   └── Malware_Analysis_Report.md
 ├── 04_Timeline/
+│   ├── Incident_Timeline.md
+│   └── Timeline_Analysis.md
 ├── 05_Forensic_Report/
+│   └── Final_Forensic_Report.md
 ├── 06_Screenshots/
+│   ├── Evidence/
+│   ├── First_Responder/
+│   ├── GitHub/
+│   ├── Malware/
+│   └── Timeline/
 ├── 07_Tools/
-└── .github/workflows/
+└── .github/
+    └── workflows/
 ```
 
 ## 6. Safety and Scope

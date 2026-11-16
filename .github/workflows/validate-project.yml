@@ -1,0 +1,45 @@
+
+name: Case Omega Repository Validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate-project:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check required project files
+        run: |
+          files=(
+            "README.md"
+            "01_First_Responder/SOP.md"
+            "01_First_Responder/Scene_Documentation.md"
+            "01_First_Responder/Evidence_Tags/Evidence_Register.md"
+            "02_Evidence_Collection/Hash_Verification.md"
+            "02_Evidence_Collection/Chain_of_Custody.md"
+            "03_Malware_Analysis/Malware_Analysis_Report.md"
+            "04_Timeline/Incident_Timeline.md"
+            "04_Timeline/Timeline_Analysis.md"
+            "05_Forensic_Report/Final_Forensic_Report.md"
+          )
+
+          for file in "${files[@]}"; do
+            if [ -f "$file" ]; then
+              echo "PASS: $file"
+            else
+              echo "FAIL: $file is missing"
+              exit 1
+            fi
+          done
+
+      - name: Validate synthetic evidence
+        run: |
+          grep -qi "synthetic" "02_Evidence_Collection/Original_Evidence/Ransom_Note.txt"
+          echo "PASS: Synthetic evidence disclaimer found"
